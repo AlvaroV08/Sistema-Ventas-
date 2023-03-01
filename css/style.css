@@ -1,0 +1,74 @@
+:root{
+--primary: #1F255E;
+--secondary: #2F73FE;
+--gray: #C3C2C8;
+--background: #4A90E2;
+--light: #F7FAFF;
+--dark: #1D1D27;
+--white: #F6F8FA;
+}
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+#container{
+	background: var(--background);
+	width: 100%;
+	height: 100vh;
+	display:flex;
+	margin: auto;
+	justify-content: center;
+	align-items: center;
+	/*background-image: url("img/bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;*/
+}
+#container h3{
+	text-align: center;
+	color: var(--light);
+	font-size: 20px;
+	font-family: ;
+}
+#container form{
+	width: 350px;
+	padding: 10px;
+	background: rgba( 255, 255, 255, 0.5 );
+	box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+	backdrop-filter: blur( 8.5px );
+	-webkit-backdrop-filter: blur( 8.5px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+#container img{
+	width: 180px;
+	margin: 15px auto;
+	display: block;
+	text-align: center;
+}
+#container input {
+	width: 100%;
+	padding: 5px;
+	font-size: 16px;
+	margin: 25px auto;
+	display: block;
+	border-radius: 10px;
+	border: 1px solid var(--dark);
+
+}
+#container input[type=submit]{
+	text-align: center;
+	background: var(--secondary);
+	color: var(--light);
+	cursor: pointer;
+}
+#container input[type=submit]:hover{
+	text-decoration: underline;
+}
+.alert{
+	text-align: center;
+	font-size: 18px;
+	color: red;
+}
