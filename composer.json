@@ -1,8 +1,0 @@
-{
-    "require": {
-        "greenter/lite": "^4.3",
-        "luecano/numero-a-letras": "3.0",
-        "dompdf/dompdf": "^2.0",
-        "greenter/report": "^4.3"
-    }
-}
